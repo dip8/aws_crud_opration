@@ -1,0 +1,8 @@
+spring.application.name=springbootawscrud
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://hrmcrud.c1qsos6ymbtj.eu-north-1.rds.amazonaws.com:3306/hrmcrud?createDatabaseIfNotExist=true&autoReconnect=true&showSSL=false
+spring.datasource.username=root
+spring.datasource.password=root
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+spring.jpa.hibernate.ddl-auto=create
+spring.jpa.show-sql=true
